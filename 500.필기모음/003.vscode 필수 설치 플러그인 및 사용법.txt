@@ -21,6 +21,10 @@
  : html의 아이디, 클래스명을 읽어서 제시해줌
  7) TabNine : 인공지능 자동완성 기능 제공
  8) Material Icon Theme : 폴더 아이콘 셋팅
+ 9) book mark : 소스 코드 위치 북마크
+ -> 라인설정 토글 : ctrl+alt+K
+ -> 이전북마크 : ctrl+alt+J
+ -> 다음북마크 : ctrl+alt+L
 
 -> vscode에서는 emmet 단축코딩툴 기본설치
     minimap이 기본설치(소스코드지도)
@@ -121,13 +125,16 @@ __________________________________________________
 -> ctrl+alt+A (A는 Abbribiation 약어)
 
 2. Upate Tag (기존태그 변경하기)
--> ctrl+alt+I (I는 Inverse 반전)
+-> ctrl+alt+U (U는 Update)
 
 3. Remove Tag(감싼태그 지우기)
--> ctrl+alt+K (K는 Kill 죽이기)
+-> ctrl+alt+R (R은 Remove)
 
-4. Beautify(자동줄맞춤)
--> ctrl+alt+B (B는 Beautify)
+4. Prettier(자동줄맞춤)
+-> ctrl+alt+P (P는 Prettier)
+
+(프리티어 설정에서)
+>>> Prettier: Tab Width를 4로 변경
 
 ******************************************************
 
@@ -161,6 +168,7 @@ ________________________________
 -> 만드는 법:
   메모장에 위의 코드를 넣고
   저장시 jsconfig.json으로 저장한다!
+
 
 
 
